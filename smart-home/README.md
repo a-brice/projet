@@ -1,3 +1,8 @@
+<h1>Maison autonome</h1>
+<p align="center">
+  ![p1](https://user-images.githubusercontent.com/78383419/109849032-34810d00-7c51-11eb-8548-07adafed8e0d.png)
+</p>
+
 Dans ce projet réalisé en binôme, le but était de fabriquer <strong>la maquette d'une maison autonome</strong>, c'est-à-dire, une maison qui serait capable de : 
 Connaître la température actuelle ambiante,
 Baisser les volets et éclairer la pièce intérieur en cas de faible luminosité,
