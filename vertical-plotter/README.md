@@ -1,3 +1,6 @@
+<h1>Traceur Vertical</h1>
+<img width="500" alt="plotter" src="https://user-images.githubusercontent.com/78383419/109843928-ef0e1100-7c4b-11eb-97e1-6809fa891244.png">
+
 Ce projet avait pour but de <strong>piloter un robot </strong> qui serait capable de reprendre les mêmes <strong>capacités</strong> qu'une imprimante, mais en utilisant un vrai stylo.
 
 Ce robot fut donc en mesure d’effectuer tout type de dessin et de pouvoir écrire sans aucune aide externe. 
