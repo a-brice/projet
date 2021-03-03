@@ -13,7 +13,7 @@ Nous avons choisi d’utiliser C# pour réaliser notre projet, étant donné que
 Classes du programme :
 Notre programme se divise en deux classes : une classe Maillon, qui instancie chaque point de la figure, et une classe Lien, qui représente les liens entre les différents points de la figure. A l’aide de ces deux classes, il nous est possible de représenter chaque configuration de figure possible.
 
-<h4>Algorithme polynomial :</h4> 
+<h3>Algorithme polynomial :</h3> 
 L’algorithme polynomial de notre projet fonctionne de la façon suivante : 
 Il prend en paramètre le nombre de maillons, les liens entre eux ainsi que la palette de couleur utilisée, puis il attribue au premier maillon une couleur.
 Ensuite, l’algorithme va tour à tour isoler chaque maillon, et une fonction va se charger de déterminer quels maillons sont liés au maillon m étudié. Grâce à cette information, on va pouvoir, à l’aide d’une autre fonction, déterminer quelles couleurs sont applicables à m.
@@ -66,7 +66,7 @@ Nous pouvons constater que le temps d’exécution augmente de façon très rais
 Cependant, à partir de 30 maillons et 40 liens, le programme tourne à l’infini, sans pour autant crasher.
 
 
-<h4>Algorithme exponentiel : </h4>
+<h3>Algorithme exponentiel : </h3>
  
 L’algorithme exponentiel de notre projet fonctionne plus simplement :
 Tout d’abord, une fonction est chargée de calculer toutes les configurations possibles de colorisation du graphe, à l’aide d’un tableau de (nombreDeMaillons) colonnes et de (nombreDeMaillons^nombreDeCouleurs) lignes.
