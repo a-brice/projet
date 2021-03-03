@@ -1,9 +1,9 @@
 
-<h1>Coloration des graphe</h1>
+<h1>Coloration des graphes</h1>
 
 Introduction :
 
-Le projet que nous avons dû réaliser en informatique fondamentale avait pour objet la coloration de graphes avec 2 ou 3 couleurs. Nous avons choisi d’utiliser deux approches, l’exponentielle et la polynomiale, afin de pouvoir clairement comparer leurs efficacités respectives, et de pouvoir se faire une idée concrète des différences entre ces deux types d’algorithmes. Nous avons également réalisé une interface graphique, afin d’avoir une vision plus claire du résultat donné par nos algorithmes, et nous avons implémenté un timer, afin de pouvoir comparer la vitesse de résolution entre nos différents algorithmes.
+Le projet que nous avons dû réaliser en binôme avait pour objet la coloration de graphes avec 2 ou 3 couleurs. Nous avons choisi d’utiliser deux approches, l’exponentielle et la polynomiale, afin de pouvoir clairement comparer leurs efficacités respectives, et de pouvoir se faire une idée concrète des différences entre ces deux types d’algorithmes. Nous avons également réalisé une interface graphique, afin d’avoir une vision plus claire du résultat donné par nos algorithmes, et nous avons implémenté un timer, afin de pouvoir comparer la vitesse de résolution entre nos différents algorithmes.
  
 Choix de technologie : 
 
@@ -32,7 +32,8 @@ Enfin, une autre fonction se charge de colorier chaque maillon. Une particularit
 Nous avons poussé cet algorithme jusqu’à pouvoir gérer une coloration selon une palette de 4 couleurs, afin de pouvoir colorier un maximum de graphiques.
 
 Tests de l’algorithme polynomial
-Test 4 Maillons 6 Liens 3 Couleurs
+Test 4 Maillons 6 Liens 3 Couleurs :
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/78383419/109856615-fd632980-7c59-11eb-86a4-779d964047bc.png" >
 <img src="https://user-images.githubusercontent.com/78383419/109856650-0653fb00-7c5a-11eb-81f0-77c7459920ca.png">
@@ -40,6 +41,7 @@ Test 4 Maillons 6 Liens 3 Couleurs
   
 Nous pouvons constater que le maillon 4 est noir : le programme n’a pas trouvé de configuration dans laquelle ce maillon peut être coloré.
 Cependant, si nous faisons le même test avec cette fois 4 couleurs :
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/78383419/109856698-1370ea00-7c5a-11eb-94e6-3c0d8882b151.png">
 <img src="https://user-images.githubusercontent.com/78383419/109856716-18ce3480-7c5a-11eb-9117-fdfd2d55c6d7.png">
@@ -52,9 +54,11 @@ Test 15 maillons 20 liens 4 couleurs :
  <img src="https://user-images.githubusercontent.com/78383419/109856752-22f03300-7c5a-11eb-8d02-7d1f7f286a86.png" width="500">
 
 20 maillons 30 liens 4 couleurs : 
+
  <img src="https://user-images.githubusercontent.com/78383419/109856777-2a174100-7c5a-11eb-9747-a9a974e4635d.png" width="500">
 
-25 maillons 35 liens 4 couleurs
+25 maillons 35 liens 4 couleurs : 
+
  <img src="https://user-images.githubusercontent.com/78383419/109856806-326f7c00-7c5a-11eb-90c2-ee8c133c9666.png" width="500">
 
 Nous pouvons constater que le temps d’exécution augmente de façon très raisonnable.
@@ -84,6 +88,7 @@ Test 4 maillons 6 liens 4 couleurs :
 Ce test permet de confirmer que lorsqu’un faible nombre de points et de liens sont utilisés, l’algorithme exponentiel est déjà moins efficace en termes de temps que l’algorithme polynomial.
 Le temps d’exécution pour cette configuration reste quand même raisonnable.
 Cependant, lorsque le nombre de points augmente, nous pouvons constater que l’algorithme exponentiel est beaucoup moins performant que son homologue polynomial.
+
  ![image](https://user-images.githubusercontent.com/78383419/109857121-9eea7b00-7c5a-11eb-9db5-c64dc32edc5a.png)
 
 Pour un graphe ne comprenant que 10 points, l’algorithme n’est déjà plus fonctionnel.
