@@ -8,4 +8,8 @@
   <li>Ouvrir et copier/coller le contenu du fichier example.txt sur la textbox du logiciel.</li>
   <li>Lancer le test</li>
 </ol>
+
+<strong>OU</strong>
+
+Télécharger et executer directement le fichier WpfApppers.exe puis laisser vous guider.
   
