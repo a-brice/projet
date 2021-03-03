@@ -1,7 +1,7 @@
 
 <h1>Coloration des graphes</h1>
 
-Introduction :
+<h4>Introduction :</h4>
 
 Le projet que nous avons dû réaliser en binôme avait pour objet la coloration de graphes avec 2 ou 3 couleurs. Nous avons choisi d’utiliser deux approches, l’exponentielle et la polynomiale, afin de pouvoir clairement comparer leurs efficacités respectives, et de pouvoir se faire une idée concrète des différences entre ces deux types d’algorithmes. Nous avons également réalisé une interface graphique, afin d’avoir une vision plus claire du résultat donné par nos algorithmes, et nous avons implémenté un timer, afin de pouvoir comparer la vitesse de résolution entre nos différents algorithmes.
  
@@ -13,7 +13,7 @@ Nous avons choisi d’utiliser C# pour réaliser notre projet, étant donné que
 Classes du programme :
 Notre programme se divise en deux classes : une classe Maillon, qui instancie chaque point de la figure, et une classe Lien, qui représente les liens entre les différents points de la figure. A l’aide de ces deux classes, il nous est possible de représenter chaque configuration de figure possible.
 
-Algorithme polynomial : 
+<h4>Algorithme polynomial :</h4> 
 L’algorithme polynomial de notre projet fonctionne de la façon suivante : 
 Il prend en paramètre le nombre de maillons, les liens entre eux ainsi que la palette de couleur utilisée, puis il attribue au premier maillon une couleur.
 Ensuite, l’algorithme va tour à tour isoler chaque maillon, et une fonction va se charger de déterminer quels maillons sont liés au maillon m étudié. Grâce à cette information, on va pouvoir, à l’aide d’une autre fonction, déterminer quelles couleurs sont applicables à m.
@@ -66,7 +66,7 @@ Nous pouvons constater que le temps d’exécution augmente de façon très rais
 Cependant, à partir de 30 maillons et 40 liens, le programme tourne à l’infini, sans pour autant crasher.
 
 
-Algorithme exponentiel : 
+<h4>Algorithme exponentiel : </h4>
  
 L’algorithme exponentiel de notre projet fonctionne plus simplement :
 Tout d’abord, une fonction est chargée de calculer toutes les configurations possibles de colorisation du graphe, à l’aide d’un tableau de (nombreDeMaillons) colonnes et de (nombreDeMaillons^nombreDeCouleurs) lignes.
@@ -101,14 +101,15 @@ De plus, le temps d’exécution pour 7 maillons 10 liens devient beaucoup plus 
 ![image](https://user-images.githubusercontent.com/78383419/109857220-c17c9400-7c5a-11eb-88aa-8828b581065e.png)
 
 
-Algorithme vérificateur :
+<h4>Algorithme vérificateur :</h4>
+
 Cet algorithme prend en paramètre un tableau de Liens et la couleur des maillons, entrés par l’utilisateur.
 Ensuite, il vérifie si chaque maillon de chaque lien de la figure a bien une couleur différente : si oui, il indique que la figure est correcte, sinon il indique qu’elle est incorrecte. Dans tous les cas, la figure est ensuite affichée telle que fournie par l’utilisateur.
  ![image](https://user-images.githubusercontent.com/78383419/109857330-dbb67200-7c5a-11eb-824e-c7335ddfe807.png)
 ![image](https://user-images.githubusercontent.com/78383419/109857374-e7099d80-7c5a-11eb-909b-92cdee53d8f9.png)
 
  
-Conclusion et pistes d’améliorations : 
+<h4>Conclusion et pistes d’améliorations :</h4> 
 En conclusion, l’algorithme exponentiel est évidemment beaucoup moins efficace que l’algorithme polynomial. En effet, ce dernier est capable de calculer un graphe correct dans une configuration avec beaucoup plus de points et de liens que l’exponentiel, puisque le nombre de calculs à effectuer devient trop important très rapidement.
 
 Pour les pistes d’amélioration, nous pouvons en noter 2 principales : 
