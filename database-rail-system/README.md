@@ -1,4 +1,12 @@
+<h1>Développement d'un logiciel de gestion de base de donnée d'un système ferroviaires</h1>
+
 Réalisé au cours de ma seconde année de classe préparatoire, j'ai eu comme cahier des charges un projet libre qui devait se servir d'une <strong>base de donnée</strong> issue de <strong>MySQL</strong>. 
+
+Les images ci-dessous montrent la connexion à la base de donnée et la gestion des requêtes.
+
+<img width="290" alt="db2" src="https://user-images.githubusercontent.com/78383419/109855015-0f43cd00-7c58-11eb-97bc-d91f50695952.png">
+<img width="305" alt="db1" src="https://user-images.githubusercontent.com/78383419/109855042-17037180-7c58-11eb-813c-2551096e8c0c.png">
+
 
 Après mûre réflexion, j'ai donc décidé de partir sur un projet de gestion d'un ensemble de gares ferroviaires qui modéliserait la base de donnée de gare.
 
