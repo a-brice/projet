@@ -1,7 +1,8 @@
-Réalisé au cours de ma seconde année de classe préparatoire, j'ai eu comme cahier des charges un projet libre qui devait se servir d'une base de donnée issue de MySQL. 
+Réalisé au sein de l'équipe du D-Shop de SAP, le but de ce projet en relation avec la période du COVID 19 fut de penser à une idée de badge qui serait capable d’imposer au porteur du badge une <strong>distance de sécurité </strong> avec les autres personnes aux alentours. 
 
-Après mûre réflexion, j'ai donc décidé de partir sur un projet de gestion d'un ensemble de gares ferroviaires qui modéliserait la base de donnée de gare.
+Après avoir trouvé plusieurs solutions et élaboré des <strong> plans d’action</strong>, j’ai pu concevoir différents <strong>prototypes </strong> permettant d’effectuer ce type de projet et enfin tester le produit dans de réelles conditions. Pour créer ce badge spécial, je suis passé par plusieurs étapes :
+<strong>La réflexion, la partie électronique, la partie logicielle, la modélisation 3D et l’impression du badge via une imprimante 3D.</strong>
 
-J'ai commencé par établir un schéma Entité/Association à l'aide de AnalyseSI puis j'ai créé la base de données qui correspondait au schéma optimal (plusieurs essais de schémas ont été nécessaire). 
+Pendant chacune de ces phases, je me demandais quelles serait les meilleures caractéristiques et améliorations à apporter pour obtenir un prototype dans des conditions optimales.
 
-Après la création de cette base de donnée et les multiples tests effectués pour s'assurer du bon fonctionnement de cette dernière, je suis passé à la partie programmation en C#/WPF sur Visual Studio pour créer une réelle application pouvant interagir directement avec la base de données grâce à l'interopérabilité C#/MySQL et la Programmation Orientée Objets
+Ce projet m'aura permis de comprendre ce qu’était le <strong>RSSI</strong> d’un signal Wi-Fi et comment pouvoir exploiter ce signal afin de réaliser plusieurs projets.
