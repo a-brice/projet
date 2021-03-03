@@ -7,3 +7,4 @@ Ce robot fut donc en mesure d’effectuer tout type de dessin et de pouvoir écr
 Composé de 2 steppers moteurs, d'une chaine à dents crantés, un servomoteur et plusieurs autres composants, la partie logicielle du robot prenait en paramètre des <strong>images vectorielles </strong> pour ainsi reproduire les dessins en transmettant au steppers chacune des positions à prendre.
 
 Ce projet a été réalisé en passant par les mêmes étapes que pour le "social distancial badge".
+<a href="https://drive.google.com/file/d/1ZSQ38H7mSPad0Y3UzzqZrbnCsxzCf-MC/view?usp=sharing">Lien du Google Drive</a>
