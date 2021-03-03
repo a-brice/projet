@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApppers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApppers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="422" Margin="0,-1,0,-0.333" VerticalAlignment="Top" Width="793">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" Opacity="0.15">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFFEF6F6"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Label Content="Ecrire la matrice à inverser :" HorizontalAlignment="Left" Height="30" Margin="10,0,0,0" Width="752"/>
+            <TextBox HorizontalAlignment="Center" Name="txtbox" Height="293" Foreground="#FFA4A3A3" AcceptsReturn="True" Background="#FFF9F9F9" Width="500" SelectionChanged="txt_select" Text="1.1 2 3 4&#xD;&#xA;1 2.2 3 4&#xD;&#xA;1 2 3.3 4&#xD;&#xA;1 2 3 4.4"/>
+            <Button Width="150" Height="35" Name="bouton" Content="Inverser" Margin="297,30,296.333,0" Background="#FFF1F1F1" FontSize="20" FontFamily="Sitka Heading" Click="Bouton_Click"/>
+        </StackPanel>
+        <Label Content="A =" Margin="41,141,654.333,153.667" FontSize="50" FontFamily="Sitka Heading" />
+    </Grid>
+</Window>

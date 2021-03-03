@@ -1,0 +1,7 @@
+C:\Users\brice\source\repos\Consolepers\Consolepers\bin\Debug\Consolepers.exe.config
+C:\Users\brice\source\repos\Consolepers\Consolepers\bin\Debug\Consolepers.exe
+C:\Users\brice\source\repos\Consolepers\Consolepers\bin\Debug\Consolepers.pdb
+C:\Users\brice\source\repos\Consolepers\Consolepers\obj\Debug\Consolepers.csprojAssemblyReference.cache
+C:\Users\brice\source\repos\Consolepers\Consolepers\obj\Debug\Consolepers.csproj.CoreCompileInputs.cache
+C:\Users\brice\source\repos\Consolepers\Consolepers\obj\Debug\Consolepers.exe
+C:\Users\brice\source\repos\Consolepers\Consolepers\obj\Debug\Consolepers.pdb
