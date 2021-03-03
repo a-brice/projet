@@ -1,9 +1,10 @@
 <h1>Badge de maintien des distance sociale</h1>
 
+
 Réalisé au sein de l'équipe du D-Shop de SAP, le but de ce projet en relation avec la période du COVID 19 fut de penser à une idée de badge qui serait capable d’imposer au porteur du badge une <strong>distance de sécurité </strong> avec les autres personnes aux alentours. 
-
-<img src="https://user-images.githubusercontent.com/78383419/109846778-cc312c00-7c4e-11eb-9eb9-42769d51225f.JPG" >
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/78383419/109846778-cc312c00-7c4e-11eb-9eb9-42769d51225f.JPG" width="500">
+</p>
 
 Après avoir trouvé plusieurs solutions et élaboré des <strong> plans d’action</strong>, j’ai pu concevoir différents <strong>prototypes </strong> permettant d’effectuer ce type de projet et enfin tester le produit dans de réelles conditions. 
 
